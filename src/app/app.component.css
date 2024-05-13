@@ -1,0 +1,7 @@
+.links{
+    display: flex;
+    background-color: aqua;
+    margin: 0.4em;
+    font-size: 2em;
+    justify-content: space-between;
+}
