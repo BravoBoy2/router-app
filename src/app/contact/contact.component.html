@@ -1,3 +1,8 @@
+
+
+
+
+
 <form class="contactForm" [formGroup]="contactForm" (ngSubmit)="$event.preventDefault(); submitForm()">
 <mat-form-field class="nameInput">
   <mat-label>Your Name</mat-label>
@@ -48,3 +53,4 @@
     <button class="btnSubmit" type="submit" mat-flat-button color="accent" [disabled]="contactForm.invalid" >Submit</button>
     
 </form>
+  

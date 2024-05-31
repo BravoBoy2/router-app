@@ -12,8 +12,9 @@ export const routes: Routes = [
     //routes with string 
     {path: 'second', component: SecondComponent},
     //lazy loaded components
-    {path: 'contact', loadComponent: () => import('./contact/contact.component').then(contact => contact.ContactComponent)},
+    // {path: 'contact', loadComponent: () => import('./contact/contact.component').then(contact => contact.ContactComponent)},
 
+    {path: 'contact', component: ContactComponent},
     {path: 'products', component: ProductslistComponent},
     //dynamic routes
     {path: 'products/:id', component: ProductdetailsComponent},
